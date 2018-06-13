@@ -47,7 +47,12 @@ var Queue = function() {
   */
 
   someInstance.size = function() {
-  //inpt
+  //input: none
+  //output: returns a positive integer representing size of the queue
+  //constraints: >=0
+  //edge cases: none 
+
+  //return queueSize variable
   };
 
   return someInstance;
