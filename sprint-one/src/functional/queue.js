@@ -11,6 +11,7 @@ var Queue = function() {
 
   someInstance.enqueue = function(value) {
   };
+  /*
   //input: a value
   //output: none
   //constraints: none
@@ -27,8 +28,23 @@ var Queue = function() {
         //set obj[i] to be obj[i-1]
     //insert new key-val pair at obj['0'] (first index)
     //increment queuesize
+*/
   someInstance.dequeue = function() {
   };
+
+  /*
+  input: none
+  output: returns the item that is taken off the queue
+  constraints: none
+  edge cases: none
+
+  //queue always removes from the front (the object's size - 1 can get length of obj.keys)
+  //if queueSize > 0
+    //make variable of returnValue and set to value of queue at queueSize
+    //delete the key-value pair where key is queueSize-1 from the obj
+    //decrement queueSize
+    //return returnValue
+  */
 
   someInstance.size = function() {
   //inpt
